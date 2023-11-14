@@ -1,0 +1,46 @@
+body{
+    background-color: #f3f0f6;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    gap: 10px;
+    padding-left: 50px;
+}
+.fa-plug{
+    color: #4b208c;
+}
+.para{
+    padding-left: 50px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+.read{
+    color: white;
+    background-color: #4b208c;
+    border-radius: 7px;
+    margin-left:50px;
+    line-height: 75px;
+    text-decoration: none;
+    padding: 12px 24px;
+    text-align: center;
+}
+.read:hover{
+    background-color: #431e7a;
+}
+img{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    border-radius: 50%;
+    border: 7px solid #7b57b2;
+}

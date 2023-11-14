@@ -1,0 +1,65 @@
+.header{
+    display: flex;
+    color: #2e0e5f;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    gap: 10px;
+}
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.fa-plug{
+    color: #4b208c;
+}
+section{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 25px;
+    justify-content: center;
+    padding-top: 25px;
+}
+.div-1, .div-2, .div-3, .div-4, .div-5 {
+    height: 350px;
+    width: 380px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgb(236, 231, 231);
+}
+.div-5{
+    margin-left: 285px;
+    margin-top: 15px;
+}
+.fa-fan, .fa-microchip{
+    padding-top: 90px;
+    padding-left: 180px;
+}
+.heading-1{
+    color: #2e0e5f;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 24px;
+}
+.para-1{
+    color: #2e0e5f;
+    text-align: center;
+    line-height: 25px;
+}
+.read{
+    color: white;
+    background-color: #4b208c;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 12px 36px;
+    text-align: center;
+    margin-top: 15px;
+}
+.read:hover{
+    background-color: #431e7a;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
